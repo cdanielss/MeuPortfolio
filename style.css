@@ -1,0 +1,69 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: #e5e5e5;
+  color: #25282B;
+  margin: 0;
+}
+#container{
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+ max-width: 980px;
+ margin-top: 150px;
+
+
+}
+#intro{
+  text-align: center;
+  
+}
+main{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+bg-inverse {
+  background-color: #292b2c;
+}
+
+.avatar-container {
+  position: absolute;
+  left: 45%;
+  width: 50px;
+  margin-top: -45px;
+  position: absolute;
+}
+
+.avatar-img{
+  border-radius: 50%;
+  max-width:250px;
+  max-height:100px;
+  position: absolute;
+  margin-top: -25px;
+  top: 0;
+  left: 0; right: 0;
+  margin: auto;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
