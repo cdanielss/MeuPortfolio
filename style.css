@@ -3,34 +3,10 @@ body{
   background: #e5e5e5;
   color: #25282B;
   margin: 0;
+  background-image: url('./img/back.jpg');
 }
-#caixas {
-  width:100%;
-  border-style:solid;
-  border-color:white;
-  height:210px;
-  font-family: 'Montserrat', sans-serif;
-  }
-  
-  #caixa1 {
-  float:left;
-  }
-  
-  #caixa2 {
-  float: right;
-  
-  }
-  .cx {
-  width:500px;
-  height:500px;
-  border-style:solid;
-  border-width:2px;
-  border-color: white;
-  text-align:left;
-  color: black;
-  background-color: white/* #dcdcdc */;
-  border-radius: 10px;
-}
+
+
 #container{
  text-align: center;
  margin-right: auto;
@@ -71,7 +47,6 @@ bg-inverse {
   margin: auto;
 }
 
-
 .navbar {
   margin-bottom: 0;
 }
@@ -93,4 +68,22 @@ bg-inverse {
 
 .jumbotron .container {
   max-width: 40rem;
+}
+
+/* .primeira{
+  display: flex;
+  background-color: #212326;
+  min-height: 50vh;
+}
+
+.segunda {
+  display: flex;
+  background-color: #1c66d6;
+  min-height: 50vh;
+} */
+
+.colunas{
+  margin-top: 6em;
+  margin-left: 2em;
+  margin-right: 2em;
 }

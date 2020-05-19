@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Meu Portfolio</title>
-  <link rel="shortcut icon" href="git.png" type="image/x-png"/>
+  <link rel="shortcut icon" href="./img/git.png" type="image/x-png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
+  <script src="https://kit.fontawesome.com/023ad780d5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,13 +18,14 @@
       <div class="row">
         <div class="col-sm-8 py-4">
           <h4 class="text-white">Sobre</h4>
-          <p class="text-muted">Informações</p>
+          <p class="text-white">Seja Bem-Vindo ao Meu Portfolio, aqui você encontra informações sobre mim.</p>
         </div>
         <div class="col-sm-4 py-4">
           <h4 class="text-white">Redes Socias</h4>
           <ul class="list-unstyled">
+            <li><a href="https://t.me/carlosdaniel1973" class="text-white">Telegram</a></li>
             <li><a href="https://www.instagram.com/c.daniel_s.s/" class="text-white">Instagram</a></li>
-            <li><a href="https://www.facebook.com/carlosdanielbadboy/" class="text-white">Facebook</a></li>
+            <li><a href="https://github.com/cdanielss" class="text-white">Github</a></li>
           </ul>
         </div>
       </div>
@@ -41,28 +43,44 @@
   <div class="avatar-container">
     <div class="avatar-img-border">
       <a href="https://github.com/cdanielss">
-        <img class="avatar-img" src="/perfil.jpeg">
+        <img class="avatar-img" src="/img/perfil.jpeg">
       </a>
     </div>
   </div>
-  <div id="caixas">
-    <div id="caixa1" class="cx">
-      <h5>Olá, me chamo Carlos Daniel e sou estudante pela Universidade Federal do Piauí</h5>
-    </div>
-    
-    <div id="caixa2" class="cx">Caixa2
-    </div>
-  </div>
-  <!-- <form>
-    <div class="form-row">
-      <div class="col">
-        <textarea cols="40">Escreva aqui seus comentários sobre nosso curso de HTML & CSS</textarea>
+  <section class="colunas">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./img/sobre.png" alt="Sobre">
+        <div class="card-body">
+          <h5 class="card-title">Sobre:</h5>
+          <p class="card-text">
+            Olá, me chamo Carlos Daniel, nascido em Valença do Piauí.<br> 
+            Sou Técnico em Redes de Computadores e atualmente estou cursando Bacharel em Sistemas de informação.
+          </p>
+        </div>
       </div>
-      <div class="col">
-        <textarea cols="40">Escreva aqui seus comentários sobre nosso curso de HTML & CSS</textarea>
+      <div class="card">
+        <img class="card-img-top" src="./img/interesses.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Interesses:</h5>
+          <p class="card-text">
+            Meus interesses estão voltados para as áreas de <strong>Redes</strong>, <strong>Desenvolvimento Web</strong>,
+            <strong>SQL</strong> e <strong>Programação Orientada a Objetos</strong>.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./img/skills.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Skills:</h5>
+          <p class="card-text">
+            Tenho habilidades em <strong>Desenvolvimento Web FullStack (Junior)</strong>, <strong>Banco de Dados Relacionais e Não Relacionais</strong>.<br> 
+            Faço parte de um Projeto de Extensão de Lógica para Alunos do Ensino Médio.
+          </p>
+        </div>
       </div>
     </div>
-  </form> -->
+  </section>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
