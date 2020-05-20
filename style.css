@@ -3,7 +3,7 @@ body{
   background: #e5e5e5;
   color: #25282B;
   margin: 0;
-  background-image: url('./img/back.jpg');
+  background-image: url('./img/back.jpg');  
 }
 
 
@@ -70,17 +70,6 @@ bg-inverse {
   max-width: 40rem;
 }
 
-/* .primeira{
-  display: flex;
-  background-color: #212326;
-  min-height: 50vh;
-}
-
-.segunda {
-  display: flex;
-  background-color: #1c66d6;
-  min-height: 50vh;
-} */
 
 .colunas{
   margin-top: 6em;
