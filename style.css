@@ -81,3 +81,10 @@ bg-inverse {
   margin-left: 2em;
   margin-right: 2em;
 }
+
+@media (max-width: 600px){
+  .avatar-container {
+    left: 47%;
+    transform: translateX(-50%);
+  }
+} 
