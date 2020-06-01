@@ -34,6 +34,11 @@ bg-inverse {
   width: 50px;
   margin-top: -45px;
   position: absolute;
+  
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  
 }
 
 .avatar-img{
