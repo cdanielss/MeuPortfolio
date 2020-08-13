@@ -77,9 +77,9 @@ bg-inverse {
 
 
 .colunas{
-  margin-top: 6em;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-top: 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 @media (max-width: 600px){
